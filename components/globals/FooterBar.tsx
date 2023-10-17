@@ -10,12 +10,10 @@ export default function FooterBar() {
 						konx.dev
 					</Link>
 				</span>
-				<span> </span>
 				<div className="flex flex-col md:flex-row md:gap-1">
 					<span>
-						<strong>Built with:</strong>
+						<strong>Built with: </strong>Next.js | TypeScript | TailwindCSS | Sanity.io
 					</span>
-					<span>Next.js | TypeScript | TailwindCSS | Sanity.io</span>
 				</div>
 			</div>
 		</footer>
