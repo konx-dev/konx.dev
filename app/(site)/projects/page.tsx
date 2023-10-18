@@ -5,9 +5,9 @@ export default async function Home() {
 	const projects = await getProjects();
 
 	return (
-		<section>
+		<section className="container mx-auto">
 			<div>
-				<h1>Projects</h1>
+				<h1 className="text-white font-semibold font-secondary">Projects</h1>
 			</div>
 			<div className="flex flex-col md:flex-row gap-5">
 				{projects.map((project) => (

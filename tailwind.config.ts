@@ -7,6 +7,10 @@ const config: Config = {
 		"./app/**/*.{js,ts,jsx,tsx,mdx}",
 	],
 	theme: {
+		fontFamily: {
+			primary: ["var(--font-opensans)"],
+			secondary: ["var(--font-playfair)"],
+		},
 		colors: {
 			navy: "#0A192F",
 			teal: "#5BE8C9",
