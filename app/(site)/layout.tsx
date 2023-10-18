@@ -40,7 +40,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 			<body className="h-screen flex flex-col bg-navy">
 				<NavigationBar />
 				<main className="flex flex-1 px-4">{children}</main>
-				<FooterBar />
+				<section className="px-4">
+					<FooterBar />
+				</section>
 			</body>
 		</html>
 	);
