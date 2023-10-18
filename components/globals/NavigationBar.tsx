@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Button from "@/components/globals/Button";
 
 export default function NavigationBar() {
 	return (
@@ -18,10 +19,8 @@ export default function NavigationBar() {
 							CV
 						</Link>
 					</li>
-					<li className="bg-teal text-navy py-1 px-2">
-						<Link className="" href="mailto:hello@konx.dev">
-							Contact Me
-						</Link>
+					<li>
+						<Button text="Contact Me" link="mailto:hello@konx.dev" />
 					</li>
 				</ul>
 			</nav>

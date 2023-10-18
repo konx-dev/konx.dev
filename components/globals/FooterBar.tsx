@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function FooterBar() {
 	return (
-		<footer className="px-4 py-2 bg-teal">
+		<footer className="px-4 py-2 bg-teal m-4 rounded">
 			<div className="text-xs container mx-auto flex flex-col text-center gap-1 md:flex-row justify-between">
 				<span className="font-primary">
 					<strong>Built by: </strong>
