@@ -11,9 +11,7 @@ export default function FooterBar() {
 					</Link>
 				</span>
 				<div className="flex flex-col md:flex-row md:gap-1">
-					<span>
-						<strong>Built with: </strong>Next.js | TypeScript | TailwindCSS | Sanity.io
-					</span>
+					<strong>Built with: </strong>Next.js | TypeScript | TailwindCSS | Sanity.io
 				</div>
 			</div>
 		</footer>
