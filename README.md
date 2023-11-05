@@ -20,10 +20,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - Sanity.io studio integration
 - PostCSS with autoprefixer
 
-### Next.js specific features
+### Next.js/React specific features
 
 - Using version 13
 - next/link, next/image & next/font
+- react-icons
 
 ## Learn More
 
