@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .text-heading {
+    font-size: var(--heading);
+  }
+}
+
+:root {
+  /* Heading: 18.00px → 30.00px */
+  --heading: clamp(1.125rem, 0.875rem + 1.25vw, 1.875rem);
+}
