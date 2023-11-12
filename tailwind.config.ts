@@ -15,7 +15,9 @@ const config: Config = {
       navy: '#0A192F',
       teal: '#5BE8C9',
       grey: '#8892B0',
-      white: '#CCD6F6',
+      white: '#FFFFFF',
+      lilac: '#CCD6F6',
+      slate: '#444444',
     },
     screens: {
       sm: '640px',

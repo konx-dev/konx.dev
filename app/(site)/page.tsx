@@ -16,7 +16,7 @@ export default async function Home() {
       </section>
       <section>
         <div>
-          <h2 className="font-secondary text-white text-heading">Featured Projects</h2>
+          <h2 className="font-secondary text-white text-heading mb-8">Featured Projects</h2>
         </div>
         <div className="flex flex-col md:flex-row gap-5">
           {projects.map((project) => (

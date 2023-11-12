@@ -6,9 +6,21 @@
   .text-heading {
     font-size: var(--heading);
   }
+  .text-subheading {
+    font-size: var(--subheading);
+  }
+  .text-body {
+    font-size: var(--body);
+  }
 }
 
 :root {
   /* Heading: 18.00px → 30.00px */
   --heading: clamp(1.125rem, 0.875rem + 1.25vw, 1.875rem);
+
+  /* Subheading: 18.00px → 28.00px */
+  --subheading: clamp(1.125rem, 0.9076rem + 1.087vw, 1.75rem);
+
+  /* Body: 14.00px → 16.00px */
+  --body: clamp(0.875rem, 0.8315rem + 0.2174vw, 1rem);
 }
